@@ -1,0 +1,54 @@
+{
+    "sala_01": [
+        {
+            "outputs": [
+                {
+                    "name": "lampada 01",
+                    "status": "OFF"
+                },
+                {
+                    "name": "lampada 02",
+                    "status": "OFF"
+                },
+                {
+                    "name": "projetor",
+                    "status": "OFF"
+                },
+                {
+                    "name": "ar-condicionado",
+                    "status": "OFF"
+                },
+                {
+                    "name": "alarme",
+                    "status": "OFF"
+                }
+            ]
+        }
+    ],
+    "sala_02": [
+        {
+            "outputs": [
+                {
+                    "name": "lampada 01",
+                    "status": "OFF"
+                },
+                {
+                    "name": "lampada 02",
+                    "status": "OFF"
+                },
+                {
+                    "name": "projetor",
+                    "status": "OFF"
+                },
+                {
+                    "name": "ar-condicionado",
+                    "status": "OFF"
+                },
+                {
+                    "name": "alarme",
+                    "status": "OFF"
+                }
+            ]
+        }
+    ]
+}
