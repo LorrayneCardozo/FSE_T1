@@ -19,7 +19,7 @@ def socketDistribuido(ip: str, porta:int):
             temp = msg.decode()
             print(temp)
             sala = temp[0]
-            opcao = temp[2]
+            opcao = temp[2]+temp[3]
             estados = comando(sala, opcao)
             con.sendall(bytes(json.dumps(estados), encoding="UTF-8"))
         print ('Finalizando conexao do cliente', cliente)

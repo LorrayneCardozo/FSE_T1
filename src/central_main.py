@@ -8,7 +8,9 @@ from signal import signal, SIGPIPE, SIG_DFL
 
 def main():
     signal(SIGPIPE,SIG_DFL)
-    sock = Thread(target=menu)
+    ip = sys.argv[1]
+    porta = sys.argv[2]
+    sock = Thread(target=menu, args=(ip, int(porta)))
     sock.start()
     sock.join()
 

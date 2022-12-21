@@ -5,7 +5,7 @@ import adafruit_dht
 def temperatura_umidade(sala):
     if(sala=='1' or sala=='3'):
         dhtDevice = adafruit_dht.DHT22(board.D4)
-    elif(sala=='2' or sala=='4'):
+    else:
         dhtDevice = adafruit_dht.DHT22(board.D18)
     while True:
         try:
