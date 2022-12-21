@@ -24,12 +24,12 @@ $ git clone https://github.com/LorrayneCardozo/FSE_T1.git
 $ cd src
  ```
 
- - Rodar na rasp44 (IP 164.41.98.26) o servidor distribuído
+ - Rodar o servidor distribuído
  ```bash
 $ python3 distribuido_main.py
  ```
 
- - Rodar na rasp43 (IP 164.41.98.15) o servidor central
+ - Rodar o servidor central, com os argumentos <ip_servidor_distribuido> <porta_servidor_distribuido>
  ```bash
-$ python3 central_main.py
+$ python3 central_main.py 164.41.98.26 10772
  ```
